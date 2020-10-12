@@ -30,7 +30,8 @@ enhanced-determinism = [ "rapier3d/enhanced-determinism" ]
 [dependencies]
 bevy = "0.2"
 nalgebra = "0.22"
-rapier3d = "0.2"
+#rapier3d = "0.2"
+rapier3d = { git = "https://github.com/ashneverdawn/rapier", branch = "bugfix/trimesh-index-sort"}
 concurrent-queue = "1"
 
 [dev-dependencies]
